@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "template",
+  "version": "${version}",
+  "name": "Template",
+  "description": "Description",
+  "authors": [
+    "Me"
+  ],
+  "contact": {
+    "repo": "github"
+  },
+  "license": "MIT",
+  "icon": "assets/template/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.quiltservertools.template.Template"
+    ]
+  },
+  "mixins": [
+    "template.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "fabric": ">=${fabricApi}",
+    "minecraft": "1.18.x"
+  }
+}
